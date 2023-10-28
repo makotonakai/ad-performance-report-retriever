@@ -4,7 +4,7 @@
 
 Google Cloud上で、収益化できているYouTubeチャンネルに紐づいているGoogleアカウントのOAuth 2.0 Clientを作成している
 
-作成方法は[こちら](https://support.google.com/workspacemigrate/answer/9222992?hl=ja)を参照
+作成方法は[こちら](https://developers.google.com/identity/protocols/oauth2/web-server?hl=ja)を参照
 
 ## 手順
 
