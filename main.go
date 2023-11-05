@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/url"
 	"os"
+	"reflect"
 	"time"
 
 	"github.com/joho/godotenv"
@@ -89,5 +90,10 @@ func main() {
 	}
 
 	vals := qr.Rows[0]
-	log.Fatal(vals)
+
+	fmt.Println(reflect.TypeOf(vals[0]))
+	fmt.Println(reflect.TypeOf(vals[1]))
+	fmt.Println(reflect.TypeOf(vals[2]))
+	fmt.Println(reflect.TypeOf(vals[3]))
+
 }
