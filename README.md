@@ -17,5 +17,5 @@ Google Cloud上で、収益化できているYouTubeチャンネルに紐づい�
    ```
 2. `go run main.go`を実行する
 3. `Visit the URL for the auth dialog: ` に続くURLにアクセスする
-4. YouTubeのアカウントに紐づいているGoogleアカウントにログインした後に\[コード\] に当たる部分を`Enter your code (the one which starts from code= in the URL): `にペーストする
-5. 数の配列が表示される
+4. YouTubeのアカウントに紐づいているGoogleアカウントにログインした後に\[コード\] に当たる部分を`Enter your code (the string between "code=" and "&scope=" in the URL): `にペーストする
+5. パラメータの型が表示される
