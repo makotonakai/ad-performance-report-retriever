@@ -88,12 +88,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err.Error())
 	}
-
-	vals := qr.Rows[0]
-
-	fmt.Println(reflect.TypeOf(vals[0]))
-	fmt.Println(reflect.TypeOf(vals[1]))
-	fmt.Println(reflect.TypeOf(vals[2]))
-	fmt.Println(reflect.TypeOf(vals[3]))
-
+	fmt.Println(reflect.TypeOf(qr))
 }
